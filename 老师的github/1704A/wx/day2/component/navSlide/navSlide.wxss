@@ -1,0 +1,15 @@
+/* component/navSlide/navSlide.wxss */
+.left{
+  height: 100%;
+  width: 240rpx;
+  border-right: 1px solid #ccc;
+}
+.leftlist{
+  height: 160rpx;
+  width: 240rpx;
+  line-height: 160rpx;
+  text-align: center;
+}
+.active{
+  color: red;
+}

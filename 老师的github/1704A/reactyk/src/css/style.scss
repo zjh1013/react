@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.index{
+    position: relative;
+}
+.title{
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.titlelist{
+    height: 44px;
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background: #2873FF;
+    align-items: center;
+    img{
+        height: 30px;
+        width: 30px;
+        transition: all 1s;
+    }
+    .imgrotate{
+        transform: rotate(180deg)
+    }
+    ul{
+        flex: 1;
+        display: flex;
+        li{
+            flex: 1;
+            text-align: center;
+            color: #fff;
+            opacity: 0.5;
+        }
+    }
+}
+.titleliststicky{
+    position: sticky;
+    top: 0;
+}
+.mark{
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.3);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+.nav{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 88px;
+    background: #fff;
+    z-index: 100;
+}
+.none{
+    display: none;
+}
+
+.citycontent{
+    dl{
+        display: flex;
+        height: 60px;
+        align-items: center;
+        dt{
+            height: 30px;
+            width: 30px;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.citylist{
+    position: fixed;
+    right: 0;
+    top: 100px;
+    li{
+        margin: 3px 0;
+    }
+}

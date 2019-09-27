@@ -1,0 +1,32 @@
+[
+    {
+        "name":"玉米",
+        "img":"",
+        "id":1,
+        "flag":3, // 0 常吃  1不吃  2  偶尔  3 ""
+        "type":"zhushi"
+    },
+    {
+        "name":"燕麦",
+        "img":"",
+        "id":2,
+        "type":"zhushi"
+    },{
+        "name":"豆皮",
+        "img":"",
+        "id":3,
+        "type":"dadou"
+    },
+    {
+        "name":"牛肉",
+        "img":"",
+        "id":4,
+        "type":"rou"
+    },
+    {
+        "name":"猪肉",
+        "img":"",
+        "id":5,
+        "type":"rou"
+    }
+]

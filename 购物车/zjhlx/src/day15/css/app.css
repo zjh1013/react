@@ -1,0 +1,21 @@
+.bigbox {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.bigbox .left {
+  width: 30%;
+  height: 100%;
+}
+
+.bigbox .right {
+  width: 50%;
+  height: 300px;
+  overflow: auto;
+  background: red;
+}
+
+.bigbox .active {
+  color: red;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "name":"主食类",
+        "id":1,
+        "img":"../",
+        "type":"zhushi"
+    },
+    {
+        "name":"大豆类",
+        "id":1,
+        "img":"../",
+        "type":"dadou"
+    },
+    {
+        "name":"肉类",
+        "id":1,
+        "img":"../",
+        "type":"rou"
+    },
+    {
+        "name":"主食类",
+        "id":1,
+        "img":"../",
+        "type":"zhushi"
+    }
+]

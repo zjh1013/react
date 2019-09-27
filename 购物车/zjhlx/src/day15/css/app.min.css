@@ -1,0 +1,1 @@
+.bigbox{height:100%;width:100%;display:flex}.bigbox .left{width:30%;height:100%}.bigbox .right{width:70%;height:30%;overflow:auto}.bigbox .active{color:red}

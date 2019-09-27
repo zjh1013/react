@@ -1,0 +1,15 @@
+<!--pages/detail/detail.wxml-->
+<text>详情</text>
+
+<view>
+  <view>姓名：{{name}}</view>
+  <view>年龄:{{age}}</view>
+</view>
+
+<switch checked bindchange="change"></switch>
+<swiper indicator-dots="true">
+  <swiper-item wx:for="{{imgUrls}}">
+    <image src="{{item}}"></image>
+  </swiper-item>
+</swiper>
+

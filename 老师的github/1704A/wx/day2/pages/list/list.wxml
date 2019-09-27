@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<view class="list">
+  <navSlide list="{{list}}" ind="{{ind}}" bindchangeInd="changeind"/>
+  <scroll-view scroll-y class="right" scroll-into-view="{{tit}}" bindscroll="scroll">
+      <view wx:for="{{list}}" id="title{{index}}" class="rightlist">
+        <view class="righttitle">{{item.name}}</view>
+        <view wx:for="{{item.foods}}" wx:for-item="item1">
+          <image src="{{item1.image}}"></image>
+          <view>{{item1.name}}</view>
+        </view>
+      </view>
+ </scroll-view>
+</view>

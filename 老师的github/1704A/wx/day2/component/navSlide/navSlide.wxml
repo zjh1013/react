@@ -1,0 +1,9 @@
+<!--component/navSlide/navSlide.wxml-->  
+<scroll-view scroll-y class="left">
+    <view wx:for="{{list}}" 
+    bindtap="changeInd" 
+    data-ind="{{index}}"
+    class="leftlist {{index === ind ? 'active' : ''}}">
+      {{item.name}}
+    </view>
+</scroll-view>

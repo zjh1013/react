@@ -1,0 +1,4 @@
+/* pages/todolist/todolist.wxss */
+.active{
+  color: red;
+}

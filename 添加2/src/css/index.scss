@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.da{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    .zuo{
+        width: 120px;
+        height: 100%;
+        background: green;
+        p{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+    }
+    .you{
+        flex: 1;
+        height: 100%;
+        background: orangered;
+        overflow: hidden;
+        .aa{
+            width: 100%;
+            height: 70px;
+            line-height: 70px;
+        }
+    }
+}
+.ac{
+    color: #fff;
+}

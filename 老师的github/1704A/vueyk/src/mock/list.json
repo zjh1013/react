@@ -1,0 +1,30 @@
+[
+    {
+        "title": "组件基础",
+        "id": "1",
+        "isShow":false,
+        "children":[
+            {
+                "title": "基本示例",
+                "isShow":false,
+                "id": "1-1"
+            },{
+                
+                "title": "组件的复用",
+                "id": "1-2",
+                "isShow":false,
+                "children":[
+                    {
+                        "title":"data 必须是一个函数",
+                        "id":"1-2-1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "深入了解组件",
+        "isShow":false,
+        "id": "2"
+    }
+]

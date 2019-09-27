@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.da {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.da .zuo {
+  width: 120px;
+  height: 100%;
+  background: green;
+}
+
+.da .zuo p {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.da .you {
+  flex: 1;
+  height: 100%;
+  background: orangered;
+  overflow: hidden;
+}
+
+.da .you .aa {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+}
+
+.ac {
+  color: #fff;
+}

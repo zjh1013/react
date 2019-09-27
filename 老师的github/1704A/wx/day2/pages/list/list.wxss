@@ -1,0 +1,17 @@
+/* pages/list/list.wxss */
+.list{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.right{
+  flex: 1;
+  height: 100%;
+}
+.righttitle{
+  font-size:48rpx;
+}
+image{
+  height: 200rpx;
+  width: 200rpx;
+}

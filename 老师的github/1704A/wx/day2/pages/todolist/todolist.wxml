@@ -1,0 +1,25 @@
+<!--pages/todolist/todolist.wxml-->
+
+<view>
+  <input placeholder="请输入" value="{{txt}}" bindinput="changetxt"></input>
+  <button bindtap="add">添加</button>
+</view>
+
+<view>
+  <view wx:if="{{num > 0}}">{{num}}个待办事项</view>
+  <view wx:else>暂无待办事项</view>
+
+  <text 
+  wx:for="{{nav}}" 
+  data-ind="{{index}}"
+  data-type="{{item.type}}"
+  bindtap="changeInd"
+  class="{{index == ind ? 'active' :' '}}">{{item.name}} </text>
+
+  <checkbox-group bindchange="changeCheck">
+    <view class="checkbox" wx:for="{{curlist}}">
+      <checkbox value="{{item.id}}" checked="{{item.check}}" />{{item.txt}}
+    </view>
+  </checkbox-group>
+
+</view>

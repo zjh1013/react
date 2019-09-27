@@ -1,0 +1,27 @@
+[
+    {
+        "name":"主食类",
+        "type":"food",
+        "img":"1.png"
+    },
+    {
+        "name":"肉类",
+        "type":"meat",
+        "img":"1.png"
+    },
+    {
+        "name":"大豆类",
+        "type":"soybean",
+        "img":"1.png"
+    },
+    {
+        "name":"水果类",
+        "type":"fruits",
+        "img":"1.png"
+    },
+    {
+        "name":"牛奶类",
+        "type":"milk",
+        "img":"1.png"
+    }
+]

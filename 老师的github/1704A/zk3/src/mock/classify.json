@@ -1,0 +1,91 @@
+[
+    {
+        "img": "2.png",
+        "name": "玉米",
+        "check": false,
+        "weight": 100,
+        "type": "food",
+        "id":1,
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "name": "燕麦片",
+        "check": false,
+        "weight": 120,
+        "type": "food",
+        "id":2,
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "id":3,
+        "name": "面包",
+        "check": false,
+        "weight": 10,
+        "type": "food",
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "id":4,
+        "name": "红薯",
+        "weight": 100,
+        "type": "food",
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "id":5,
+        "name": "猪肉",
+        "weight": 100,
+        "type": "meat",
+        "check": false,
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "id":6,
+        "name": "牛肉",
+        "weight": 100,
+        "check": false,
+        "type": "meat",
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "id":7,
+        "name": "羊肉肉",
+        "weight": 100,
+        "type": "meat",
+        "check": false,
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "name": "腐竹",
+        "weight": 100,
+        "type": "soybean",
+        "check": false,
+        "id":8,
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "name": "红豆",
+        "weight": 100,
+        "type": "soybean",
+        "check": false,
+        "id":9,
+        "flag": 3
+    },
+    {
+        "img": "2.png",
+        "name": "录豆",
+        "weight": 100,
+        "type": "soybean",
+        "check": false,
+        "id":10,
+        "flag": 3
+    }
+]

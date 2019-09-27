@@ -1,0 +1,296 @@
+[
+  {
+    "id": "guowei",
+    "banner": "c1.png",
+    "cate": "果味",
+    "detail": [
+      {
+        "thumb": "c2.png",
+        "name": "梨花带雨 3个",
+        "count": 0,
+        "id":"guowei1",
+        "price": 1
+      },
+      {
+        "thumb": "c3.png",
+        "name": "红枣 500g",
+        "count": 0,
+        "id":"guowei2",
+        "price": 3
+      },
+      {
+        "thumb": "c4.png",
+        "count": 0,
+        "price": 4,
+        "id":"guowei3",
+        "name": "奇异果 2个"
+      },
+      {
+        "thumb": "c4.png",
+        "count": 0,
+        "price": 9,
+        "id":"guowei4",
+        "name": "奇异果 2个"
+      },
+      {
+        "thumb": "c3.png",
+        "count": 0,
+        "price": 10,
+        "id":"guowei5",
+        "name": "红枣 500g"
+      },
+      {
+        "thumb": "c2.png",
+        "price": 2,
+        "id":"guowei6",
+        "count": 0,
+        "name": "梨花带雨 3个"
+      }
+    ]
+  },
+  {
+    "id": "shucai",
+    "banner": "c1.png",
+    "cate": "蔬菜",
+    "detail": [
+      {
+        "thumb": "s4.png",
+        "id":"shucai1",
+        "price": 12,
+        "count": 0,
+        "name": "瓜子 3个"
+      },
+      {
+        "thumb": "s5.png",
+        "id":"shucai2",
+        "price": 11,
+        "count": 0,
+        "name": "芹菜 500g"
+      },
+      {
+        "thumb": "s6.png",
+        "id":"shucai3",
+        "price": 10,
+        "count": 0,
+        "name": "小米"
+      },
+      {
+        "thumb": "s6.png",
+        "price": 9,
+        "id":"shucai4",
+        "count": 0,
+        "name": "小米"
+      },
+      {
+        "thumb": "s5.png",
+        "price": 12,
+        "count": 0,
+        "id":"shucai5",
+        "name": "芹菜 500g"
+      },
+      {
+        "thumb": "s4.png",
+        "price": 12,
+        "id":"shucai6",
+        "count": 0,
+        "name": "瓜子 4个"
+      }
+    ]
+  },
+  {
+    "id": "chaohuo",
+    "banner": "c1.png",
+    "cate": "炒货",
+    "detail": [
+      {
+        "thumb": "c2.png",
+        "id":"chaohuo1",
+        "price": 20,
+        "count": 0,
+        "name": "梨花带雨 3个"
+      },
+      {
+        "thumb": "c3.png",
+        "id":"chaohuo2",
+        "price": 21,
+        "count": 0,
+        "name": "红枣 500g"
+      },
+      {
+        "thumb": "c4.png",
+        "price": 22,
+        "id":"chaohuo3",
+        "count": 0,
+        "name": "奇异果 2个"
+      },
+      {
+        "thumb": "c4.png",
+        "price": 2,
+        "count": 0,
+        "id":"chaohuo4",
+        "name": "奇异果 2个"
+      },
+      {
+        "thumb": "c3.png",
+        "price": 3,
+        "id":"chaohuo5",
+        "count": 0,
+        "name": "红枣 500g"
+      },
+      {
+        "thumb": "c2.png",
+        "price": 10,
+        "count": 0,
+        "id":"chaohuo6",
+        "name": "梨花带雨 3个"
+      }
+    ]
+  },
+  {
+    "id": "dianxin",
+    "banner": "c1.png",
+    "cate": "点心",
+    "detail": [
+      {
+        "thumb": "s4.png",
+        "id":"dianxin1",
+        "price": 30,
+        "count": 0,
+        "name": "瓜子 3个"
+      },
+      {
+        "thumb": "s5.png",
+        "price": 31,
+        "count": 0,
+        "id":"dianxin2",
+        "name": "芹菜 500g"
+      },
+      {
+        "thumb": "s6.png",
+        "price": 32,
+        "id":"dianxin3",
+        "count": 0,
+        "name": "小米"
+      },
+      {
+        "thumb": "s6.png",
+        "price": 33,
+        "count": 0,
+        "id":"dianxin4",
+        "name": "小米"
+      },
+      {
+        "thumb": "s5.png",
+        "price": 34,
+        "count": 0,
+        "id":"dianxin5",
+        "name": "芹菜 500g"
+      },
+      {
+        "thumb": "s4.png",
+        "price": 35,
+        "id":"dianxin6",
+        "count": 0,
+        "name": "瓜子 4个"
+      }
+    ]
+  },
+  {
+    "id": "cucha",
+    "banner": "c1.png",
+    "cate": "粗茶",
+    "detail": [
+      {
+        "price": 12,
+        "id":"cucha1",
+        "count": 0,
+        "thumb": "c2.png",
+        "name": "梨花带雨 3个"
+      },
+      {
+        "price": 11,
+        "id":"cucha2",
+        "count": 0,
+        "thumb": "c3.png",
+        "name": "红枣 500g"
+      },
+      {
+        "price": 10,
+        "count": 0,
+        "id":"cucha3",
+        "thumb": "c4.png",
+        "name": "奇异果 2个"
+      },
+      {
+        "price": 11,
+        "count": 0,
+        "id":"cucha4",
+        "thumb": "c4.png",
+        "name": "奇异果 2个"
+      },
+      {
+        "price": 10,
+        "count": 0,
+        "id":"cucha5",
+        "thumb": "c3.png",
+        "name": "红枣 500g"
+      },
+      {
+        "price": 19,
+        "count": 0,
+        "id":"cucha6",
+        "thumb": "c2.png",
+        "name": "梨花带雨 3个"
+      }
+    ]
+  },
+  {
+    "id": "danfan",
+    "banner": "c1.png",
+    "cate": "淡饭",
+    "detail": [
+      {
+        "id":"danfa1",
+        "price": 3,
+        "count": 0,
+        "thumb": "s4.png",
+        "name": "瓜子 3个"
+      },
+      {
+        "id":"danfa2",
+        "thumb": "s5.png",
+        "price": 4,
+        "count": 0,
+        "name": "芹菜 500g"
+      },
+      {
+        "id":"danfa3",
+        "thumb": "s6.png",
+        "price": 7,
+        "count": 0,
+        "name": "小米"
+      },
+      {
+        "thumb": "s6.png",
+        "id":"danfa4",
+        "price": 8,
+        "count": 0,
+        "name": "小米"
+      },
+      {
+        "id":"danfa5",
+        "price": 9,
+        "count": 0,
+        "thumb": "s5.png",
+        "name": "芹菜 500g"
+      },
+      {
+        "price": 11,
+        "id":"danfa6",
+        "count": 0,
+        "thumb": "s4.png",
+        "name": "瓜子 4个"
+      }
+    ]
+  }
+]

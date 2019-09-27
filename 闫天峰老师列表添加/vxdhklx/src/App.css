@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
+.da{
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    flex: 9.1;
+    background: rgb(204, 221, 110);
+    overflow: auto;
+    padding: 10px;
+}
+.ipt{
+    flex: 0.9;
+    background: rebeccapurple;
+}
+.ipt .aa{
+    width: 100%;
+    height: 80%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:7px; 
+}
+.aa input{
+    width: 75%;
+    height: 60%;
+    border-radius:10px;
+    border: 0; 
+}
+.aa button {
+    width: 60px;
+    height: 30px;
+    /* border: 0; */
+}

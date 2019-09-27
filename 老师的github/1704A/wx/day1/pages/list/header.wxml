@@ -1,0 +1,8 @@
+<template name="head">
+  <view>头部</view>
+</template>
+
+
+<view>
+  其他的文件
+</view>

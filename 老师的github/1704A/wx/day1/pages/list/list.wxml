@@ -1,0 +1,43 @@
+<!--pages/list/list.wxml-->
+<include src="header.wxml"/>
+<import src="header.wxml"/>
+<view>
+  <view>{{mes}}</view>
+  <view hidden="{{flag}}">
+    {{flag == 1 ?'周一':'08' }}
+  </view>
+  <view>今天晚上吃什么？</view>
+  <view wx:if="{{flag === 1}}">米饭</view>
+  <view wx:elif="{{flag === 2}}">鸡腿</view>
+  <view wx:else>面条</view>
+
+  <view bindtap="goToLog" data-name="log">查看日志</view>
+  <view 
+  wx:for="{{arr}}" 
+  wx:for-item="obj" 
+  wx:for-index="ind" 
+  bindtap="goToDetail"
+  data-ind="{{ind}}"
+  wx:key="{{ind}}">
+    <template is="list" data="{{ind,obj}}"></template>
+  </view>
+  <view wx:for="title">{{item}}</view>
+
+  <template name="list">
+    {{ind}}
+    <view>名字：{{obj.namr}}</view>
+    <view>年龄：{{obj.age}}</view>
+  </template>
+
+  <template name="add">
+    <view>姓名:{{name}}</view>
+    <view>地址：{{address}}</view>
+    <view>电话：{{phone}}</view>
+  </template>
+
+  <template is="add" data="{{...obj1}}"></template>
+  <template is="head"></template>
+
+
+
+</view>

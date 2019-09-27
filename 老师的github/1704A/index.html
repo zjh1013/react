@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var obj = {a:1,b:2};
+    // for(var i in obj){
+    //     console.log(i,obj[i]);
+    // }
+    // obj.a = 2;
+    // console.log(obj);
+
+
+    //数据属性
+    Object.defineProperty(obj,'b',{
+        value:'1704A',
+        writable:false, //是否可编辑
+        enumerable:false, //是否可枚举 false：不可枚举的
+        configurable:false  //是否可配置
+    });
+
+    delete obj.b;
+
+    console.log(obj);
+
+    for(var i in obj){
+        console.log(i);
+    }
+
+
+    var obj1 = {_c:1};
+
+    //访问器属性
+    Object.defineProperty(obj1,'_c',{
+        get(){
+            // console.log('9999');
+            return '8080';
+        },
+        set(val){
+            console.log('set',val);
+            this._c = val;
+        }
+    });
+
+    console.log(obj1._c);
+    obj1._c = 90;
+
+</script>
+</html>
